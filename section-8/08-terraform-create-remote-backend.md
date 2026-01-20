@@ -3,11 +3,11 @@
 ## **1. AWS Provider Configuration**
 ```hcl
 provider "aws" {
-  region = "us-west-2"
+  region = "us-east-1"
 }
 ```
 - This block defines the **AWS provider** that Terraform will use.
-- The `region` attribute specifies the AWS region where resources will be created (in this case, `us-west-2`).
+- The `region` attribute specifies the AWS region where resources will be created (in this case, `us-east-1`).
 
 ---
 
